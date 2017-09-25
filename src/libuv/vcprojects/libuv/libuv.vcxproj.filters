@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sources">
+      <UniqueIdentifier>{9b0734ec-8e32-4315-bc1b-80d96a8b4e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sources\win">
+      <UniqueIdentifier>{8f48c1c8-1190-4c65-928f-b37bed9c5af6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\fs-poll.c">
+      <Filter>Source Files\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\inet.c">
+      <Filter>Source Files\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\threadpool.c">
+      <Filter>Source Files\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\uv-common.c">
+      <Filter>Source Files\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\version.c">
+      <Filter>Source Files\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\async.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\core.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\detect-wakeup.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\dl.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\error.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\fs.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\fs-event.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\getaddrinfo.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\getnameinfo.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\handle.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\loop-watcher.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\pipe.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\poll.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\process.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\process-stdio.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\req.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\signal.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\snprintf.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\stream.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\tcp.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\thread.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\timer.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\tty.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\udp.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\util.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\winapi.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\win\winsock.c">
+      <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

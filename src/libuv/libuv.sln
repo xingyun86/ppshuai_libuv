@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuv", "vcprojects\libuv\libuv.vcxproj", "{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socks5-proxy", "vcprojects\libuv_samples\socks5-proxy.vcxproj", "{B055378A-A71C-4DE0-A339-09E693381669}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57} = {4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libuv_samples", "libuv_samples", "{B5C4DBC1-EAA8-435E-8375-6361F469BAF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdemo", "vcprojects\libuv_samples\testdemo.vcxproj", "{EA487798-CDA9-41A3-B6AD-3242095A1CF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57} = {4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcpsock", "vcprojects\libuv_samples\tcpsock.vcxproj", "{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57} = {4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket-client", "vcprojects\libuv_samples\socket-client.vcxproj", "{14B64181-1108-4887-A6E0-6B2C88BD4D27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57} = {4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket-server", "vcprojects\libuv_samples\socket-server.vcxproj", "{14D1385E-508B-4BA1-880E-ACD733942B6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57} = {4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Debug|Win32.Build.0 = Debug|Win32
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Debug|x64.ActiveCfg = Debug|x64
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Debug|x64.Build.0 = Debug|x64
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Release|Win32.ActiveCfg = Release|Win32
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Release|Win32.Build.0 = Release|Win32
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Release|x64.ActiveCfg = Release|x64
+		{4C5B5D7D-0AC9-47A7-B2D9-A6DB1CFB1A57}.Release|x64.Build.0 = Release|x64
+		{B055378A-A71C-4DE0-A339-09E693381669}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B055378A-A71C-4DE0-A339-09E693381669}.Debug|Win32.Build.0 = Debug|Win32
+		{B055378A-A71C-4DE0-A339-09E693381669}.Debug|x64.ActiveCfg = Debug|x64
+		{B055378A-A71C-4DE0-A339-09E693381669}.Debug|x64.Build.0 = Debug|x64
+		{B055378A-A71C-4DE0-A339-09E693381669}.Release|Win32.ActiveCfg = Release|Win32
+		{B055378A-A71C-4DE0-A339-09E693381669}.Release|Win32.Build.0 = Release|Win32
+		{B055378A-A71C-4DE0-A339-09E693381669}.Release|x64.ActiveCfg = Release|x64
+		{B055378A-A71C-4DE0-A339-09E693381669}.Release|x64.Build.0 = Release|x64
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Debug|Win32.Build.0 = Debug|Win32
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Debug|x64.ActiveCfg = Debug|x64
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Debug|x64.Build.0 = Debug|x64
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Release|Win32.ActiveCfg = Release|Win32
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Release|Win32.Build.0 = Release|Win32
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Release|x64.ActiveCfg = Release|x64
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9}.Release|x64.Build.0 = Release|x64
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Debug|Win32.Build.0 = Debug|Win32
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Debug|x64.ActiveCfg = Debug|x64
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Debug|x64.Build.0 = Debug|x64
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Release|Win32.ActiveCfg = Release|Win32
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Release|Win32.Build.0 = Release|Win32
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Release|x64.ActiveCfg = Release|x64
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922}.Release|x64.Build.0 = Release|x64
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Debug|Win32.Build.0 = Debug|Win32
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Debug|x64.ActiveCfg = Debug|x64
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Debug|x64.Build.0 = Debug|x64
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Release|Win32.ActiveCfg = Release|Win32
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Release|Win32.Build.0 = Release|Win32
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Release|x64.ActiveCfg = Release|x64
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27}.Release|x64.Build.0 = Release|x64
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Debug|Win32.Build.0 = Debug|Win32
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Debug|x64.ActiveCfg = Debug|x64
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Debug|x64.Build.0 = Debug|x64
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Release|Win32.ActiveCfg = Release|Win32
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Release|Win32.Build.0 = Release|Win32
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Release|x64.ActiveCfg = Release|x64
+		{14D1385E-508B-4BA1-880E-ACD733942B6E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B055378A-A71C-4DE0-A339-09E693381669} = {B5C4DBC1-EAA8-435E-8375-6361F469BAF9}
+		{EA487798-CDA9-41A3-B6AD-3242095A1CF9} = {B5C4DBC1-EAA8-435E-8375-6361F469BAF9}
+		{C9284B3D-8C0B-4FC2-962E-1DF9C2BA6922} = {B5C4DBC1-EAA8-435E-8375-6361F469BAF9}
+		{14B64181-1108-4887-A6E0-6B2C88BD4D27} = {B5C4DBC1-EAA8-435E-8375-6361F469BAF9}
+		{14D1385E-508B-4BA1-880E-ACD733942B6E} = {B5C4DBC1-EAA8-435E-8375-6361F469BAF9}
+	EndGlobalSection
+EndGlobal
