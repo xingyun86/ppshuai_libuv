@@ -102,9 +102,6 @@
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\thread.c">
       <Filter>Source Files\sources\win</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sources\libuv-1.x\src\win\timer.c">
-      <Filter>Source Files\sources\win</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\tty.c">
       <Filter>Source Files\sources\win</Filter>
     </ClCompile>
@@ -119,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\winsock.c">
       <Filter>Source Files\sources\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\libuv-1.x\src\timer.c">
+      <Filter>Source Files\sources</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

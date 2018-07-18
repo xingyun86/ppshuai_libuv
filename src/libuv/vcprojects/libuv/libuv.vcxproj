@@ -199,7 +199,7 @@ XCOPY $(SolutionDir)sources\libuv-1.x\include $(SolutionDir)libuv-publish\includ
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\stream.c" />
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\tcp.c" />
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\thread.c" />
-    <ClCompile Include="..\..\sources\libuv-1.x\src\win\timer.c" />
+    <ClCompile Include="..\..\sources\libuv-1.x\src\timer.c" />
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\tty.c" />
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\udp.c" />
     <ClCompile Include="..\..\sources\libuv-1.x\src\win\util.c" />
